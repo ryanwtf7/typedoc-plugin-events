@@ -1,0 +1,48 @@
+{
+  "name": "typedoc-plugin-events",
+  "version": "1.0.0",
+  "description": "TypeDoc plugin that auto-generates event documentation from EventEmitter subclasses",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./dist/index.cjs": "./dist/index.cjs",
+    "./dist/index.js": "./dist/index.js"
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch"
+  },
+  "keywords": ["typedoc", "plugin", "events", "eventemitter", "typescript"],
+  "license": "Apache-2.0",
+  "author": "RY4N (https://github.com/ryanwtf7)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanwtf7/typedoc-plugin-events"
+  },
+  "homepage": "https://github.com/ryanwtf7/typedoc-plugin-events#readme",
+  "bugs": "https://github.com/ryanwtf7/typedoc-plugin-events/issues",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "peerDependencies": {
+    "typedoc": ">=0.26.0 <0.29.0"
+  },
+  "devDependencies": {
+    "tsdown": "^0.21.5",
+    "typescript": "^6.0.0"
+  }
+}
