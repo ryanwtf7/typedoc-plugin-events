@@ -20,12 +20,21 @@
     "./dist/index.cjs": "./dist/index.cjs",
     "./dist/index.js": "./dist/index.js"
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch"
   },
-  "keywords": ["typedoc", "plugin", "events", "eventemitter", "typescript"],
+  "keywords": [
+    "typedoc",
+    "plugin",
+    "events",
+    "eventemitter",
+    "typescript"
+  ],
   "license": "Apache-2.0",
   "author": "RY4N (https://github.com/ryanwtf7)",
   "repository": {
