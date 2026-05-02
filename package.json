@@ -30,7 +30,7 @@
   "author": "RY4N (https://github.com/ryanwtf7)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryanwtf7/typedoc-plugin-events"
+    "url": "git+https://github.com/ryanwtf7/typedoc-plugin-events.git"
   },
   "homepage": "https://github.com/ryanwtf7/typedoc-plugin-events#readme",
   "bugs": "https://github.com/ryanwtf7/typedoc-plugin-events/issues",
