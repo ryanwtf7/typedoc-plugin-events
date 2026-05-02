@@ -1,0 +1,6 @@
+src/
+.github/
+tsconfig.json
+tsdown.config.ts
+node_modules/
+*.log
